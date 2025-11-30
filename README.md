@@ -42,7 +42,9 @@ Build System: Gradle
 Project Structure -->
 
 app/src/main/java/com/example/foodmart/
+
 Contains all Kotlin source files:
+
 screen/ – Jetpack Compose UI screens
 theme/ – color palette, typography, shapes, and MaterialTheme configuration
 model/ – data models used in the UI
