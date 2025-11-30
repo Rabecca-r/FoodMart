@@ -41,14 +41,18 @@ Build System: Gradle
 
 Project Structure -->
 
-FoodMart/
-│── app/
-│   ├── src/main/java/com/example/foodmart/
-│   │   ├── screen/        # Compose UI screens
-│   │   ├── theme/         # Colors, typography, shapes, MaterialTheme setup
-│   │   ├── model/         # Data models
-│   │   └── MainActivity.kt
-│   └── src/main/res/      # Drawables, icons, fonts, themes
+app/src/main/java/com/example/foodmart/
+Contains all Kotlin source files:
+screen/ – Jetpack Compose UI screens
+theme/ – color palette, typography, shapes, and MaterialTheme configuration
+model/ – data models used in the UI
+MainActivity.kt – main entry activity
+app/src/main/res/
+
+Contains all Android resources:
+drawable/ – icons, splash image, placeholder assets
+mipmap/ – launcher icon assets
+values/ – colors, themes, styles XML
 
 How to Run: 
 1. Clone the repository
