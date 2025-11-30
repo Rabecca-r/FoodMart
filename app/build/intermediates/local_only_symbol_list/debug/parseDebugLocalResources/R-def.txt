@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable app_icon
+drawable ic_filter
+drawable ic_launcher_background
+drawable ic_placeholder
+drawable splash_shrimp
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+style Theme.FoodMart

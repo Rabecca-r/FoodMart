@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- simple shopping bag-ish icon -->
+    <path
+        android:fillColor="#FF1C4ED8"
+        android:pathData="M6,7h12l-1,12H7z" />
+    <path
+        android:fillColor="#FF1C4ED8"
+        android:pathData="M9,10a3,3 0 0,1 6,0" />
+</vector>
