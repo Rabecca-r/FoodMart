@@ -1,0 +1,38 @@
+# Gradle build output
+.gradle/
+build/
+**/build/
+
+# Local configuration (do NOT commit)
+local.properties
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Captures / profiling / native builds
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+*.apk
+*.ap_
+*.aab
+
+# Signing / keystore files
+*.jks
+*.keystore
+*.pem
+
+# Log files
+*.log
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# JetBrains version control metadata
+.vscode/
