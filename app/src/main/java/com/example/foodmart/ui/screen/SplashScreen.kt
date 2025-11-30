@@ -26,7 +26,7 @@ fun SplashScreen(
 ) {
     // Auto-navigate after a short delay
     LaunchedEffect(Unit) {
-        delay(1500) // 1.5s – adjust if you want
+        delay(1500) // 1.5s load time - adjust as needed
         onFinished()
     }
 
