@@ -152,11 +152,11 @@ fun FoodListScreen(
                             .padding(horizontal = 16.dp)
                     ) {
                         Text(
-                            text = "Food",
+                            text = "Food Items",
                             style = MaterialTheme.typography.titleMedium.copy(
                                 fontWeight = FontWeight.SemiBold
                             ),
-                            modifier = Modifier.padding(top = 8.dp, bottom = 12.dp)
+                            modifier = Modifier.padding(top = 20.dp, bottom = 12.dp)
                         )
 
                         FoodItemsGrid(
@@ -183,7 +183,7 @@ private fun FoodItemsGrid(
         columns = GridCells.Fixed(2),
         contentPadding = PaddingValues(
             start = 0.dp,
-            top = 16.dp,
+            top = 10.dp,
             end = 0.dp,
             bottom = 24.dp
         ),
@@ -225,7 +225,7 @@ private fun FoodItemCard(
                     .fillMaxWidth()
                     .height(130.dp) // tall enough for the full bag / tub
                     .clip(RoundedCornerShape(14.dp))
-                    .background(Color(0xFF2D2D2D)), // 🔹 dark background like a chalkboard // 🔹 dark background like a chalkboard
+                    .background(Color(0xFF2D2D2D)), // dark background like a chalkboard
                 contentAlignment = Alignment.Center
             ) {
                 AsyncImage(
@@ -234,7 +234,7 @@ private fun FoodItemCard(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(6.dp),        // leave a dark border around the art
-                    contentScale = ContentScale.Fit, // 🔹 show whole image, no cropping
+                    contentScale = ContentScale.Fit, //show whole image, no cropping
                     placeholder = painterResource(R.drawable.ic_placeholder),
                     error = painterResource(R.drawable.ic_placeholder)
                 )
@@ -278,7 +278,7 @@ private fun LoadingGridSkeleton() {
         columns = GridCells.Fixed(2),
         contentPadding = PaddingValues(
             start = 0.dp,
-            top = 16.dp,
+            top = 10.dp,
             end = 0.dp,
             bottom = 24.dp
         ),
