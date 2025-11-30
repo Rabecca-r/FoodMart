@@ -14,7 +14,7 @@ import com.example.foodmart.ui.screen.FoodListViewModel
 import com.example.foodmart.ui.screen.FoodListViewModelFactory
 import com.example.foodmart.ui.screen.SplashScreen   // 👈 add this import
 
-// Central place for all routes so they're not magic strings everywhere
+// Central place for all routes so they're not magic strings everywhere we navigate
 object FoodDestinations {
     const val SPLASH = "splash"
     const val FOOD_LIST = "food_list"

@@ -79,8 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/app/app_icon.png" />
-                                                <entry key="scalingPercent" value="73" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/app/src/main/res/drawable/app_icon.png" />
+                                                <entry key="scalingPercent" value="45" />
                                               </map>
                                             </option>
                                           </PersistentState>
